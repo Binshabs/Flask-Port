@@ -25,15 +25,30 @@
     font-weight: bold;
 }
 .navbar ul li a{
+
     text-decoration: none;
     color: white;
     padding: 8px 25px;
+
+}
+
+@media (max-width:600px) {
+    .navbar ul li a{
+
+       
+        padding: 1px 2px !important;
+    
+    }
+    
 }
 .navbar ul li a:hover{
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+
+
 
 /*HOME SECTION*/
 section{
